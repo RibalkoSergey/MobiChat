@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_search"
+          android:title="search"
+          android:icon="@drawable/find_user"
+          app:showAsAction="always"/>
+    <item android:id="@+id/menu_list_requests"
+          android:title="search"
+          android:icon="@drawable/add_user_list"
+          app:showAsAction="always"/>
+</menu>

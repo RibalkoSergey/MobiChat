@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="center"
+        android:background="@drawable/login_page_background">
+
+    <LinearLayout
+            android:id="@+id/layoutLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="30dp">
+        <ImageView
+                android:id="@+id/imageLoginPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login_page_icon"
+                >
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/layoutLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login:"
+                android:textColor="#483C32"
+                android:textStyle="bold">
+        </TextView>
+
+        <EditText
+                android:id="@+id/editTxtLogin"
+                android:layout_height="40dp"
+                android:layout_width="160dp">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/layoutPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textStyle="bold"
+                android:textColor="#483C32">
+        </TextView>
+
+        <EditText
+                android:id="@+id/editTxtPassword"
+                android:layout_height="40dp"
+                android:layout_width="160dp"
+                android:inputType="textPassword">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/layoutPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+        <Button
+                android:id="@+id/btnSignIn"
+                android:layout_marginTop="15dp"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:text="Sign in"
+
+                android:background="@drawable/login_page_background">
+        </Button>
+
+        <TextView
+                android:id="@+id/tvGetAccountNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registration"
+                android:textStyle="bold"
+                android:textColor="#111111"
+                android:layout_marginTop="30dp">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
+

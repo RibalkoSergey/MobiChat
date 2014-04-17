@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp"
+                android:background="@drawable/font_for_item_list">
+
+    <ImageView
+            android:id="@+id/imgFotoFf"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/app_name"
+            android:layout_alignParentLeft="true"/>
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/arrow"
+            android:layout_toRightOf="@+id/imgFotoFf"
+            android:orientation="vertical" >
+
+        <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="name"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:textSize="16dp"
+                android:textColor="#505050"
+                android:textStyle="bold" />
+        <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:padding="2dp"
+                android:text="status"
+                android:textColor="#7F7F7F"
+                android:textSize="10dp" />
+    </RelativeLayout>
+
+    <ImageButton
+            android:id="@+id/sendInvite"
+            android:layout_x="430px"
+            android:layout_y="219px"
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:scaleType="center"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/green_mail_send_icon"
+
+            />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/login_page_background"
+        >
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_margin="0dp">
+    <ListView
+            android:id="@+id/listViewFoundFriendList"
+            style="@style/ListView"/>
+    </LinearLayout>
+</LinearLayout>

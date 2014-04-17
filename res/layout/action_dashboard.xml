@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/login_page_background">
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+    <ListView
+            android:id="@+id/listViewMessages"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            style="@style/ListView"
+            android:background="@drawable/font_for_item_list"/>
+        <Button
+                android:id="@+id/btnSendMessage"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Send message"
+                android:background="@drawable/login_page_background">
+        </Button>
+    </LinearLayout>
+</FrameLayout>

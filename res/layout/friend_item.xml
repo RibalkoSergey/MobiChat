@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:background="@drawable/font_for_item_list">
+
+    <ImageView android:background="@null"
+                 android:id="@+id/imgFoto"
+                 android:layout_width="70dp"
+                 android:layout_height="70dp"
+                 android:src="@drawable/user_foto"
+                 android:layout_centerVertical="true"
+                 android:scaleType="centerCrop"
+                 android:padding="3dp"
+                 android:layout_alignParentLeft="true"/>
+
+
+    <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="name"
+            android:textSize="16dp"
+            android:textColor="#505050"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/imgFoto"/>
+
+    <ImageView android:background="@null"
+                 android:id="@+id/friendMessage"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+
+                 android:layout_centerVertical="true"
+                 android:padding="10dip"
+                 android:layout_alignParentRight="true"/>
+
+    <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:text="Count:"
+            android:textColor="#7F7F7F"
+            android:textSize="16dp"
+            android:layout_toLeftOf="@id/friendMessage"/>
+
+</RelativeLayout>
